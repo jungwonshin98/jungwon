@@ -31,7 +31,7 @@ html {
 }
 
 a {
-  color: #eb9687;
+  color: #111112;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -39,7 +39,9 @@ a {
 
 a:hover {
   text-decoration: underline !important;
-  color: #eb9687 !important;
+  background: #a0a0a0;
+  color: #ffffff;
+
 }
 
 a:focus, a:active {
@@ -162,7 +164,8 @@ header #fh5co-main-nav > ul li a.active:before {
 }
 header #fh5co-main-nav > ul li a:hover, header #fh5co-main-nav > ul li a:focus {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
+  background: #c6c6c6;
 }
 header #fh5co-main-nav > ul li:first-child {
   margin-left: 0;
@@ -381,8 +384,9 @@ header #fh5co-main-nav > ul li:first-child {
   margin-top: 22px;
   transition: all 0.4s ease-in-out;
 }
+
 #blog .blog-thumb .btn:hover {
-  background: #111112;
+  background: #3a3a3a;
   border-color: transparent;
   color: #ffffff;
 }
@@ -562,23 +566,29 @@ footer .social {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
-  color: #fff;
+  background: #fff;
+  color: #111112;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #52d3aa;
+  background: #a0a0a0;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
+  background: #a0a0a0 !important;
   color: #fff;
   outline: none !important;
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
   border-color: transparent;
+  background: #a0a0a0;
+  color: #ffffff;
 }
+.btn.btn-default a:hover {
+  color: #ffffff;
+}
+
 
 .social {
   padding: 0;
