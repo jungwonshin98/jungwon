@@ -57,20 +57,24 @@ p {
   font-family: "Lato", "Roboto", Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   color: #000;
   font-family: "Lato", "Roboto Slab", Arial, sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
 }
 
-
-h3 {
-  text-align: center;
+h5 {
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  text-indent: 30px;
+  color: #3a3a3a;
+  font-weight: 200;
+  font-family: "Lato", "Roboto", Arial, sans-serif;
 }
 
 #profile {
@@ -142,6 +146,10 @@ header #fh5co-main-nav > ul li {
     margin-left: 0;
     margin-bottom: 15px;
   }
+
+  h4, h5 {
+    text-align: center;
+  }
 }
 header #fh5co-main-nav > ul li a {
   padding-bottom: 3px;
@@ -186,6 +194,10 @@ header #fh5co-main-nav > ul li:first-child {
   #fh5co-main-nav .nav li.active a {
     border-bottom: 2px solid transparent;
     color: #eb9687;
+  }
+
+  h4, h5 {
+    text-align: center;
   }
 }
 
