@@ -68,6 +68,11 @@ h1, h3 {
   text-align: center;
 }
 
+h4 {
+font-size: 19px;
+font-weight: 240;
+}
+
 h5 {
   margin-bottom: 1.5em;
   font-size: 18px;
