@@ -82,6 +82,14 @@ h5 {
   font-family: "Lato", "Roboto", Arial, sans-serif;
 }
 
+/* Portfolio rendering */
+
+.content {
+	width: 620px;
+	margin:  96px auto 120px auto;
+}
+
+
 #profile {
   width: 500px;
   height: auto;
