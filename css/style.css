@@ -356,6 +356,11 @@ header #fh5co-main-nav > ul li:first-child {
   display: block;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 /* about section styles
 /* ========================================== */
