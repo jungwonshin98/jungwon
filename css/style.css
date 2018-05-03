@@ -82,6 +82,14 @@ h5 {
   font-family: "Lato", "Roboto", Arial, sans-serif;
 }
 
+.tab {
+  margin-left: 40px;
+}
+
+br {
+  text-indent: 10px;
+}
+
 /* Portfolio rendering */
 
 .content {
