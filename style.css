@@ -326,6 +326,7 @@ section .title::after {
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+
 }
 
 .work .carousel .card:hover {
@@ -622,9 +623,7 @@ footer span a:hover {
         font-size: 27px;
     }
     .about .about-content .right .text,
-    .skills .skills-content .left .text {
-        font-size: 19px;
-    }
+
     .contact .right form .fields {
         flex-direction: column;
     }
@@ -923,14 +922,14 @@ a {
     padding-top: 20px;
     padding-left: 40px;
     border-radius: 20px;
-    background-color: #F2E8D7;
-    background-image: url("images/spotify-projectcard.png");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 10px;
     white-space: normal;
     background-clip: border-box;
+    -webkit-backdrop-filter: blur(5px); /* apply the blur */
+    backdrop-filter: blur(5px);  
 }
 
 .link-block-2.projectcard:hover {
@@ -938,24 +937,43 @@ a {
     background-size: cover;
 }
 
-#spotify {
+.card-spotify {
     background-image: url("images/spotify-projectcard.png");
     background-position: 50% 50%;
-}
+    -webkit-backdrop-filter: blur(5px); /* apply the blur */
+    backdrop-filter: blur(5px);  }
 
 .link-block-2.projectcard.spotify:hover {
     background-size: cover;
 }
 
-#yelp-ds {
+.card-yelp-ds {
     background-image: url("images/yelp-ds-projectcard.png");
     background-position: 50% 50%;
-}
+    -webkit-backdrop-filter: blur(5px); /* apply the blur */
+    backdrop-filter: blur(5px);  }
 
-#yelp-elite {
+.card-yelp-elite {
+    position: fixed;
+    left: 0;
+  right: 0;
+  z-index: 1;
+    z-index: 1;
     background-image: url("images/yelp-elite-projectcard.png");
     background-position: 50% 50%;
+    -webkit-backdrop-filter: blur(5px); /* apply the blur */
+    backdrop-filter: blur(5px);     
 }
+.save-text {
+    position: fixed;
+    left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+  filter: blur(0px);
+}
+
 
 .heading {
     font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
@@ -1534,10 +1552,7 @@ a {
     .link-block-2.projectcard:hover {
         background-size: cover;
     }
-    .line-block-2.projectcard .yelp-ds {
-        background-image: url("images/yelp-ds-projectcard.png");
-        background-position: 50% 80%;
-    }
+
     .link-block-2.projectcard.yelp-ds:hover {
         background-size: cover;
     }
@@ -1657,15 +1672,7 @@ a {
         padding-left: 20px;
         background-image: url("https://uploads-ssl.webflow.com/5350028b1443eefb41001752/5fa9bb895ddb5ae62249ddbe_Intercom-00.jpg");
     }
-    .projecthero.projectheader.industryillos {
-        background-position: 50% 50%;
-    }
-    .projecthero.projectheader.animalsarchheader {
-        margin-top: -105px;
-    }
-    .projecthero.financehero {
-        background-position: 50% 100%;
-    }
+
     .projecttitle {
         margin-top: 60px;
     }
@@ -1777,10 +1784,7 @@ a {
         background-repeat: no-repeat;
         background-attachment: scroll;
     }
-    .line-block-2.projectcard .yelp-ds {
-        background-image: url("images/yelp-ds-projectcard.png");
-        background-position: 50% 80%;
-    }
+    
     .link-block-2.projectcard.yelp-ds:hover {
         background-size: cover;
     }
@@ -1998,10 +2002,7 @@ a {
         min-height: 400px;
         margin-bottom: 20px;
     }
-    .line-block-2.projectcard .yelp-ds {
-        background-image: url("images/yelp-ds-projectcard.png");
-        background-position: 50% 80%;
-    }
+
     .link-block-2.projectcard.yelp-ds:hover {
         background-size: cover;
     }
