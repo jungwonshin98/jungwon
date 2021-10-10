@@ -734,11 +734,9 @@ a {
 
 .projectcard {
     width: 100%;
-    /* height: 100%; */
     height: 500px;
-    max-width: 0px;
+    /* max-width: 0px; */
     border-radius: 30px;
-    /* background-size: 610px; */
 }
 
 .body {
@@ -910,7 +908,8 @@ a {
 
 .link-block-2 {
     width: 70%;
-    height: 430px;
+    height: 500px;
+    
 }
 
 .link-block-2.projectcard {
@@ -918,18 +917,16 @@ a {
     height: 500px;
     max-width: none;
     margin: auto;
-    margin-bottom: 40%;
+    margin-bottom: 15%;
+    margin-top: 15%;
     padding-top: 20px;
     padding-left: 40px;
     border-radius: 20px;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 10px;
     white-space: normal;
     background-clip: border-box;
-    -webkit-backdrop-filter: blur(5px); /* apply the blur */
-    backdrop-filter: blur(5px);  
 }
 
 .link-block-2.projectcard:hover {
@@ -940,39 +937,23 @@ a {
 .card-spotify {
     background-image: url("images/spotify-projectcard.png");
     background-position: 50% 50%;
-    -webkit-backdrop-filter: blur(5px); /* apply the blur */
-    backdrop-filter: blur(5px);  }
-
-.link-block-2.projectcard.spotify:hover {
-    background-size: cover;
+    /* filter: blur(2px); */
 }
+
 
 .card-yelp-ds {
     background-image: url("images/yelp-ds-projectcard.png");
     background-position: 50% 50%;
-    -webkit-backdrop-filter: blur(5px); /* apply the blur */
-    backdrop-filter: blur(5px);  }
+    /* filter: blur(2px); */
+}
 
 .card-yelp-elite {
-    position: fixed;
-    left: 0;
-  right: 0;
-  z-index: 1;
-    z-index: 1;
+
     background-image: url("images/yelp-elite-projectcard.png");
     background-position: 50% 50%;
-    -webkit-backdrop-filter: blur(5px); /* apply the blur */
-    backdrop-filter: blur(5px);     
+    /* filter: blur(2px); */
 }
-.save-text {
-    position: fixed;
-    left: 0;
-  right: 0;
-  z-index: 9999;
-  margin-left: 20px;
-  margin-right: 20px;
-  filter: blur(0px);
-}
+
 
 
 .heading {
@@ -1005,9 +986,11 @@ a {
 }
 
 .columns-2 {
-    display: block;
+    display: block, -webkit-box-flex, -webkit-flex;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -1017,10 +1000,10 @@ a {
     cursor: auto;
 }
 
-.w-container .w-row {
+/* .w-container .w-row {
     margin-left: -10px;
     margin-right: -10px;
-}
+} */
 
 .w-row:before,
 .w-row:after {
@@ -1846,14 +1829,7 @@ a {
         -ms-flex: 0 auto;
         flex: 0 auto;
     }
-    /* .column-5 {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    .column-6 {
-        padding-right: 0px;
-        padding-left: 0px;
-    } */
+
     .w-col {
         position: relative;
         float: center;
