@@ -448,6 +448,17 @@ header #fh5co-main-nav>ul li:first-child {
     text-indent: 2em;
 }
 
+li {
+    list-style-type: none;
+    font-size: 18px;
+    text-indent: none;
+    color: #3a3a3a;
+    font-weight: 200;
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 140%;
+    margin-bottom: .5em;
+}
+
 
 /* Snap Chat Page */
 
